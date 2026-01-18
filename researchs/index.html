@@ -5,142 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OSOP Veritabanı Teknolojileri Analizi</title>
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f0f2f5;
-            color: #333;
-        }
-        .container {
-            max-width: 1000px;
-            margin: auto;
-            background: #fff;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-        }
-        h1 {
-            color: #1a73e8;
-            border-bottom: 3px solid #1a73e8;
-            padding-bottom: 10px;
-            text-align: center;
-        }
-        h2 {
-            color: #202124;
-            margin-top: 30px;
-            border-left: 5px solid #1a73e8;
-            padding-left: 15px;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 30px auto;
-            border: 2px solid #e0e0e0;
-            border-radius: 10px;
-            transition: transform 0.3s;
-        }
-        img:hover {
-            transform: scale(1.02);
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        th, td {
-            padding: 12px;
-            border: 1px solid #ddd;
-            text-align: left;
-        }
-        th {
-            background-color: #f8f9fa;
-            color: #1a73e8;
-        }
-        ul {
-            background: #f8f9fa;
-            padding: 20px 40px;
-            border-radius: 8px;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #eee;
-            font-size: 0.85em;
-            color: #666;
-        }
-        .badge {
-            background: #e8f0fe;
-            color: #1967d2;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 0.9em;
-            font-weight: bold;
-        }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; padding: 20px; background-color: #f4f7f6; color: #333; }
+        .container { max-width: 900px; margin: auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 2px 15px rgba(0,0,0,0.1); }
+        h1 { color: #1a73e8; text-align: center; }
+        .infographic-box { text-align: center; margin: 30px 0; padding: 20px; border: 1px dashed #ccc; border-radius: 8px; }
+        img { max-width: 100%; height: auto; border-radius: 5px; margin-bottom: 15px; }
+        .description { font-style: italic; color: #555; font-size: 0.95em; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>OSOP Veritabanı Teknolojileri Analizi Raporu</h1>
-        <p style="text-align: center; font-style: italic;">Bu rapor, modern veri depolama sistemlerinin teknik analizi ve DevOps süreçlerine entegrasyonu amacıyla Gemini AI tarafından hazırlanmıştır.</p>
+        
+        <div class="infographic-box">
+            <h2>Araştırma İnfografiği</h2>
+            <img src="infographic.png" alt="Veritabanı Teknolojileri Infografiği">
+            <p class="description">"Bu infografik, OSOP araştırmasında incelenen veritabanı teknolojilerinin (İlişkisel, Sunucusuz ve NoSQL) temel avantajlarını ve kullanım alanlarını görsel bir özet halinde sunmaktadır."</p>
+        </div>
 
-        <h2>Veritabanı Teknolojileri Infografiği</h2>
-        <p>Aşağıdaki görsel, MySQL, PostgreSQL, SQLite ve ReDB teknolojilerinin temel karşılaştırmasını sunar:</p>
-        <img src="infographic.png" alt="Veritabanı Teknolojileri Infografiği">
-
-        <h2>1. Temel Çalışma Prensipleri</h2>
+        <h2>Teknik Özet</h2>
         <ul>
-            <li><span class="badge">RDBMS:</span> <strong>MySQL ve PostgreSQL</strong>, verileri tablolar halinde saklar ve güçlü ilişki modelleri kurar.</li>
-            <li><span class="badge">Serverless:</span> <strong>SQLite</strong>, herhangi bir sunucu kurulumu gerektirmeden tek bir dosya üzerinden çalışır.</li>
-            <li><span class="badge">NoSQL:</span> <strong>ReDB</strong> gibi sistemler, yüksek hız ve esnek şema yapısıyla modern uygulama ihtiyaçlarını karşılar.</li>
+            <li><strong>MySQL & PostgreSQL:</strong> Verileri tablolar halinde saklayan güçlü ilişkisel sistemler.</li>
+            <li><strong>SQLite:</strong> Sunucusuz çalışan, dosya tabanlı pratik çözüm.</li>
+            <li><strong>ReDB:</strong> Yüksek hızlı modern veri erişimi sunan yapı.</li>
         </ul>
-
-        <h2>2. En İyi Uygulama Yöntemleri (Best Practices)</h2>
-        <ul>
-            <li><strong>Konteynerizasyon:</strong> Veritabanlarının Docker üzerinden yönetilmesi.</li>
-            <li><strong>Bağlantı Havuzu:</strong> Uygulama performansını artırmak için bağlantıların optimize edilmesi.</li>
-            <li><strong>Normalizasyon:</strong> Veri bütünlüğünü sağlamak için doğru tablo tasarımı.</li>
-        </ul>
-
-        <h2>3. Benzer Açık Kaynak Projeler ve Rakipler</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Teknoloji</th>
-                    <th>Açık Kaynak Rakibi</th>
-                    <th>Bulut Karşılığı (SaaS)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr><td><b>MySQL</b></td><td>MariaDB</td><td>AWS RDS MySQL</td></tr>
-                <tr><td><b>PostgreSQL</b></td><td>TimescaleDB</td><td>Azure Database for PG</td></tr>
-                <tr><td><b>SQLite</b></td><td>DuckDB</td><td>-</td></tr>
-                <tr><td><b>ReDB</b></td><td>Redis / MongoDB</td><td>MongoDB Atlas</td></tr>
-            </tbody>
-        </table>
-
-        <h2>4. Kritik Yapılandırma Dosyaları</h2>
-        <ul>
-            <li><strong>MySQL:</strong> <code>my.cnf</code></li>
-            <li><strong>PostgreSQL:</strong> <code>postgresql.conf</code> ve <code>pg_hba.conf</code></li>
-            <li><strong>DevOps:</strong> <code>docker-compose.yml</code> (Konteyner yönetimi için).</li>
-        </ul>
-
-        <h2>5. Güvenlik (SecOps) Odak Noktaları</h2>
-        <ul>
-            <li><strong>SQL Injection:</strong> Sorgu güvenliği için Prepared Statements kullanımı.</li>
-            <li><strong>Yetki (RBAC):</strong> En az yetki prensibi ile kullanıcı yönetimi.</li>
-            <li><strong>Şifreleme:</strong> Hem beklemede (at-rest) hem de transferde (in-transit) veri güvenliği.</li>
-        </ul>
-
+        
         <footer>
-            <p>Meltem - OSOP Projesi Çalışması &copy; 2026</p>
+            <p style="text-align:center; margin-top:50px; color:#999;">&copy; 2026 OSOP Projesi</p>
         </footer>
     </div>
 </body>
