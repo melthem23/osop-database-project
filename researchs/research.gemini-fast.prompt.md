@@ -1,5 +1,5 @@
-# Kullanılan Promptlar
+# Gemini Fast - Kullanılan Promptlar
 
-1. "Veritabanı teknolojileri hakkında teknik analiz yap ve rapor hazırla."
-2. "Bu analiz için bir infografik görseli ve index.html sayfası oluştur."
-3. "GitHub klasör yapısını OSOP standartlarına (researchs klasörü) göre düzenle."
+1. **Teknik Karşılaştırma:** "MySQL, PostgreSQL, SQLite ve Redis veritabanlarını hız, güvenlik, ACID uyumluluğu ve kullanım alanlarına göre karşılaştıran derinlemesine bir analiz hazırla."
+2. **Görselleştirme:** "Bu veritabanı analiz sonuçlarını özetleyen bir infografik tasarımı için veri yapısı oluştur."
+3. **Web Sayfası:** "Bu bulguları modern bir arayüzle sunan basit bir HTML web sayfası kodu oluştur."
