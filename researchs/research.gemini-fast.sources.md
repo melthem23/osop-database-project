@@ -1,6 +1,7 @@
-# Kaynakça
-* **GitHub Docs:** Repository yönetimi rehberleri.
-* **MySQL Documentation:** RDBMS temel çalışma prensipleri.
-* **PostgreSQL Official Guide:** Veritabanı yapılandırma parametreleri.
-* **SQLite.org:** Sunucusuz veritabanı mimarisi incelemesi.
-* **Docker Hub:** Veritabanı imajları ve SecOps standartları.
+# Gemini Fast - Kaynak Listesi
+
+1. MySQL Official Documentation (mysql.com)
+2. PostgreSQL Core Documentation (postgresql.org)
+3. Redis In-Memory Data Store Technical Guides (redis.io)
+4. SQLite Architecture Overview (sqlite.org)
+5. Gemini-Fast Knowledge Base and Tech Reports
