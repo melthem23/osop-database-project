@@ -1,0 +1,16 @@
+{
+  "projectName": "OSOP Database Project",
+  "category": "Service Management",
+  "author": "melthem23",
+  "version": "1.0.0",
+  "description": "Veritabanı teknolojileri analizi ve sistem bütünlüğü kontrol aracı.",
+  "features": [
+    "Teknik analiz raporu",
+    "Otomatik dosya doğrulama",
+    "İnteraktif HTML sunumu"
+  ],
+  "requirements": {
+    "os": "Ubuntu 22.04",
+    "language": "Bash, HTML"
+  }
+}
