@@ -11,5 +11,7 @@ Bu proje, farklı veritabanı teknolojilerinin (MySQL, PostgreSQL, SQLite, Redis
 Proje dosyalarının doğruluğunu test etmek için terminalde şu komutu çalıştırın:
 bash check_integrity.sh
 
-## 🎥 Proje Tanıtım Videosu
+## 📽️ Proje Sunumu
+Projenin tüm aşamalarını, teknik analizlerini ve otomasyon süreçlerini içeren sunum dosyasına aşağıdan ulaşabilirsiniz:
 
+👉 [Proje Sunumunu Görüntüle (PDF)](./proje tanıtım.pdf)
