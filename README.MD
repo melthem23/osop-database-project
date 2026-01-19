@@ -12,4 +12,4 @@ Proje dosyalarının doğruluğunu test etmek için terminalde şu komutu çalı
 bash check_integrity.sh
 
 ## 🎥 Proje Tanıtım Videosu
-[Buraya videonun linkini ekleyeceksin]
+
