@@ -1,10 +1,15 @@
-# OSOP: Çoklu Veritabanı Yönetimi (MySQL, Pg, SQLite, ReDB)
+# OSOP: Çoklu Veritabanı Yönetimi ve Analizi
 
-## Proje Amacı
-Bu çalışma, veritabanı sunucularının kurulumunu, bağlantı testlerini ve yetki yönetimini DevOps prensipleriyle incelemeyi hedefler.
+Bu proje, farklı veritabanı teknolojilerinin (MySQL, PostgreSQL, SQLite, Redis) teknik analizini ve sistem bütünlüğü otomasyonunu içermektedir.
 
-## Araştırma Konuları
-* **Veritabanı Türleri:** MySQL, PostgreSQL, SQLite ve ReDB arasındaki farklar.
-* **Kurulum:** Docker kullanarak hızlı kurulum yöntemleri.
-* **Güvenlik:** Kullanıcı yetkilendirme ve SQL Injection korunma yolları.
+## 📁 Proje Yapısı
+- **researchs/**: Veritabanı karşılaştırma raporları, prompt kayıtları ve infografik çalışması.
+- **project_info.json**: Projenin teknik meta verileri.
+- **check_integrity.sh**: Dosya yapısını otomatik kontrol eden Bash betiği.
 
+## 🛠️ Otomasyon Kullanımı
+Proje dosyalarının doğruluğunu test etmek için terminalde şu komutu çalıştırın:
+bash check_integrity.sh
+
+## 🎥 Proje Tanıtım Videosu
+[Buraya videonun linkini ekleyeceksin]
